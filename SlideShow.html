@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="Styles.css">
+<head>
+<body>
+	<img src="playButton.png" id = "present"></img>
+	<img src = "pauseButton.svg" id = "pause"></img>
+	<img src = "options.png" id = "options"></img>
+	<input type = "button" value = "Update Changes to Slide" id = "update"></input>
+	<input type="textbox" value = "" id = "titleTextBox"></input>
+	<input type="textbox" value = "" id = "photographerTextBox"></input>
+	<input type="textbox" value = "" id = "dateTextBox"></input>
+	<input type="textbox" value = "" id = "photoTextBox"></input>
+	<input type="button" value = "Update Changes" id = "updateChangesButton"></input>
+	<textarea name="Text1" cols="40" rows="5" id = "descriptionTextBox"></textarea>
+	<textarea name="Text1" cols="40" rows="5" id = "descriptionTextBox2"></textarea>
+	<img src="rightArrow.png"id = "rightArrow"></img>
+	<img src="leftArrow.png"id = "leftArrow"></img>		
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src = "SlideClass.js"></script>
+	<script src = "Controls.js"></script> 
+	<script src = "SlideShowClass.js"></script> 
+	<script src = "DisplayClass.js"></script>
+	<script src = "FileAccess.js"></script>
+</body>
+<script>
+//loads the slideshow.
+    window.onload = function(){
+		SlideShow();
+	}	
+ </script>
+
+</head>
+
+</html>
+
